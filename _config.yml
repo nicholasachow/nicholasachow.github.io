@@ -21,6 +21,7 @@ author: Nicholas Chow
 
 navbar-links:
   About Me: "aboutme"
+  Blog: "blog"
   Writing:
     - Point in Time: "https://nicholasachow.substack.com/"
     - Field Notes by Nick: "https://fieldnotesbynick.substack.com/"
@@ -50,7 +51,7 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "nickychowder@gmail.com"
+  email: "nchow.hq@gmail.com"
   # rss: true  # remove this line if you don't want to show an RSS link at the bottom
   # facebook:
   github: nicholasachow
@@ -85,7 +86,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: This website is a virtual proof that I have a website
 
 ###########################
 # --- General options --- #
@@ -160,8 +161,8 @@ footer-hover-col: "#0085A1"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+site-css:
+  - "/assets/css/custom-styles.css"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
@@ -265,7 +266,7 @@ timezone: "America/Los_Angeles"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+# paginate: 5
 
 kramdown:
   input: GFM

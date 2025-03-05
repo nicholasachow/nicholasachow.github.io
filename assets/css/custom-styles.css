@@ -1,0 +1,9 @@
+/* Custom styles for nicholasachow.github.io */
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 8px;
+  font-size: 0.9em;
+}
