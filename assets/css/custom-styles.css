@@ -10,20 +10,24 @@ figcaption {
 
 /* Reduce boldness of headings */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 /* Specific adjustments for different heading levels if needed */
 h1 {
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 1.75rem;
 }
 
 h2, h3 {
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 1.75rem;
 }
 
 h4, h5, h6 {
-  font-weight: 500;
+  font-weight: 400;
+  font-size: 1.25rem;
 }
 
 /* Reduce font weight in navigation bar */
@@ -31,3 +35,18 @@ h4, h5, h6 {
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 600;
 }
+
+/* Style for horizontal rule */
+hr {
+  height: 1px !important;
+  background-color: #ddd !important;
+  border: none !important;
+  width: 100% !important;
+  margin: 2rem 0 !important;
+  max-width: 100% !important;
+  position: relative !important;
+  left: 0 !important;
+  right: 0 !important;
+}
+
+
