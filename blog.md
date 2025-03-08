@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Blog
-subtitle: All my blog posts in one place
+title:
+subtitle:
 ---
 
-Welcome to my blog! Here you'll find all my articles and thoughts.
+Some thoughts on applied AI and company building.
