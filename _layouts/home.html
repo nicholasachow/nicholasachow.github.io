@@ -7,11 +7,11 @@ layout: page
 {% assign posts = paginator.posts | default: site.posts %}
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
-<ul class="posts-list" style="list-style: none; padding: 0; margin: 1rem 0 0 0;">
+<ul class="posts-list" style="list-style: none; padding: 0; margin: 1rem 0 0 0; font-family: 'Poppins', sans-serif;">
   {% for post in posts %}
   <li class="post-preview" style="padding: 0.3rem 0; display: flex; align-items: baseline; gap: 1rem;">
-    <span class="post-meta" style="color: #666; font-size: 0.9rem; flex-shrink: 0; min-width: 140px;">{{ post.date | date: date_format }}</span>
-    <a href="{{ post.url | absolute_url }}" style="font-size: 1rem;">{{ post.title | strip_html }}</a>
+    <span class="post-meta" style="color: #666; font-size: 0.9rem; flex-shrink: 0; min-width: 140px; font-family: 'Poppins', sans-serif;">{{ post.date | date: date_format }}</span>
+    <a href="{{ post.url | absolute_url }}" style="font-size: 1rem; font-family: 'Poppins', sans-serif;">{{ post.title | strip_html }}</a>
   </li>
   {% endfor %}
 </ul>

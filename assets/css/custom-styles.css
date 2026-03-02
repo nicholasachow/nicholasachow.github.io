@@ -2,6 +2,23 @@
    vaughntan.org-inspired minimal aesthetic
    ======================================== */
 
+/* --- Override Beautiful Jekyll CSS variables --- */
+:root {
+  --page-col: #FFFFFF !important;
+  --text-col: #000000 !important;
+  --link-col: #0000FF !important;
+  --hover-col: #0000CC !important;
+  --navbar-col: #FFFFFF !important;
+  --navbar-text-col: #0000FF !important;
+  --navbar-border-col: #FFFFFF !important;
+  --footer-col: #FFFFFF !important;
+  --footer-text-col: #000000 !important;
+  --footer-link-col: #0000FF !important;
+  --footer-hover-col: #0000CC !important;
+  --body-font: 'Poppins', sans-serif !important;
+  --header-font: 'Poppins', sans-serif !important;
+}
+
 /* --- Global Typography --- */
 body {
   font-family: 'Poppins', sans-serif !important;
@@ -9,6 +26,7 @@ body {
   line-height: 1.7 !important;
   color: #000 !important;
   background: #fff !important;
+  padding-top: 0 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -23,7 +41,7 @@ h2 { font-size: 1.4rem !important; }
 h3 { font-size: 1.2rem !important; }
 h4, h5, h6 { font-size: 1.05rem !important; }
 
-p, li, td, th, blockquote {
+p, li, td, th, blockquote, span, div {
   font-family: 'Poppins', sans-serif !important;
 }
 
@@ -32,7 +50,7 @@ a {
   color: #0000FF !important;
   text-decoration: none !important;
 }
-a:hover {
+a:hover, a:focus {
   color: #0000CC !important;
   text-decoration: underline !important;
 }
@@ -41,6 +59,7 @@ a:hover {
 .navbar-custom {
   background-color: #fff !important;
   border: none !important;
+  border-bottom: none !important;
   box-shadow: none !important;
   position: static !important;
   padding: 1.5rem 0 1rem 0 !important;
@@ -54,20 +73,28 @@ a:hover {
   text-transform: none !important;
   margin-left: 0 !important;
   padding: 0 !important;
+  line-height: 1 !important;
 }
-.navbar-custom .navbar-brand:hover {
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
   color: #0000CC !important;
 }
 
+/* Nav links — target both old (.navbar-nav .nav-link) and new (.nav-links .nav-link) */
+.navbar-custom .nav-link,
 .navbar-custom .navbar-nav .nav-link {
   font-family: 'Poppins', sans-serif !important;
   font-size: 16px !important;
   font-weight: 400 !important;
   color: #0000FF !important;
   text-transform: none !important;
-  padding: 0 0 0 1.8rem !important;
+  padding: 0 0 0 2rem !important;
+  line-height: 1 !important;
 }
-.navbar-custom .navbar-nav .nav-link:hover {
+.navbar-custom .nav-link:hover,
+.navbar-custom .nav-link:focus,
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link:focus {
   color: #0000CC !important;
 }
 
@@ -77,9 +104,9 @@ a:hover {
   padding-top: 0 !important;
 }
 
-/* Override the body padding-top Beautiful Jekyll adds for fixed navbar */
-body {
-  padding-top: 0 !important;
+/* Navbar is full-width, NOT constrained by container-md */
+.navbar-custom .nav-container {
+  max-width: none !important;
 }
 
 /* --- Content Width & Layout --- */
@@ -90,11 +117,6 @@ body {
   margin-right: auto !important;
   padding-left: 0 !important;
   padding-right: 2rem !important;
-}
-
-/* Navbar is full-width, NOT constrained by container-md */
-.navbar-custom .nav-container {
-  max-width: none !important;
 }
 
 /* Remove Bootstrap column offsets that center content */
@@ -202,6 +224,7 @@ footer {
   background-color: #fff !important;
   border-top: none !important;
   padding: 2rem 0 !important;
+  margin-top: 2rem !important;
 }
 
 .beautiful-jekyll-footer {
@@ -214,19 +237,25 @@ footer .copyright {
   color: #666 !important;
 }
 
+footer p.text-muted {
+  color: #666 !important;
+}
+
+footer a {
+  color: #0000FF !important;
+}
+
 footer .footer-custom-content,
 footer .theme-by {
   display: none !important;
 }
 
 /* --- Remove Beautiful Jekyll chrome --- */
-/* No image grayscale filters */
 img {
   filter: none !important;
   -webkit-filter: none !important;
 }
 
-/* Remove card borders and shadows */
 .post-preview,
 .blog-post,
 article {
@@ -234,7 +263,6 @@ article {
   border: none !important;
 }
 
-/* Remove intro-header background overlay */
 .intro-header .big-img .img-desc {
   display: none !important;
 }
@@ -300,7 +328,7 @@ blockquote {
     margin-left: 1.5rem !important;
     margin-right: 1.5rem !important;
     max-width: none !important;
-    padding-right: 0 !important;
+    padding-right: 1.5rem !important;
   }
 
   .navbar-custom .nav-container {

@@ -3,12 +3,5 @@ layout: base
 ---
 
 <main class="container-md">
-  {% if page.title %}
-    <h1>{{ page.title | strip_html }}</h1>
-    {% if page.subtitle %}
-      <p class="post-meta" style="color: #666; margin-top: -0.5rem; margin-bottom: 1.5rem;">{{ page.subtitle | strip_html }}</p>
-    {% endif %}
-  {% endif %}
-
   {{ content }}
 </main>

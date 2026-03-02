@@ -1,7 +1,6 @@
 ---
 layout: home_no_posts
 title:
-subtitle:
 ---
 
 # Welcome
