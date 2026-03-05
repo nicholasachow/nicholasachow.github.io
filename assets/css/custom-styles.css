@@ -282,6 +282,11 @@ article {
   margin-top: 2rem !important;
   border-top: 1px solid #eee !important;
   padding-top: 1rem !important;
+  gap: 1.5rem;
+}
+
+.pagination.blog-pager li {
+  max-width: 45%;
 }
 
 .pagination .page-link {
