@@ -4,6 +4,7 @@ title: The purgatory of endless possibility
 subtitle: Let's explore the unique existential dread of graduation together
 comments: true
 mathjax: true
+tags: [life]
 ---
 
 <figure>

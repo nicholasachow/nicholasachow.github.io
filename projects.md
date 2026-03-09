@@ -1,6 +1,7 @@
 ---
 layout: page
 title:
+share-description: "Data-driven tennis analytics and probabilistic modeling projects by Nicholas Chow."
 ---
 
 # Projects

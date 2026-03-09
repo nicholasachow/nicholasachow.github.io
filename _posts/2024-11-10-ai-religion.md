@@ -4,6 +4,7 @@ title: Decoding Silicon Valley's newest religion
 subtitle: The essentials of AI, explained for All
 comments: true
 mathjax: true
+tags: [ai, technology]
 ---
 
 Silicon Valley treats AI like a sacred, untouchable force that will change everything.

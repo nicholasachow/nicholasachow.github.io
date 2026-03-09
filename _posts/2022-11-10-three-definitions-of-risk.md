@@ -2,6 +2,7 @@
 layout: post
 title: Three definitions of risk (and why it matters)
 subtitle: What is risk, really?
+tags: [investing]
 ---
 
 *I've spent years thinking about risk and risk-taking, and I've realized that it's not so straightforward as we would like to think.*

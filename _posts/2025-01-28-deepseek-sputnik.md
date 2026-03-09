@@ -2,6 +2,7 @@
 layout: post
 title: "The DeepSeek r1 model: AI's Sputnik moment?"
 subtitle: "How a low-cost, high-performance model from China sparked panic, and what it means for AI"
+tags: [ai, technology]
 ---
 
 I woke up today to Nvidia's stock price down something like 20%.

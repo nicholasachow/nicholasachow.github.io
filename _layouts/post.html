@@ -9,8 +9,11 @@ layout: base
     {% if page.title %}
       <h1>{{ page.title | strip_html }}</h1>
     {% endif %}
+    {%- assign words = content | number_of_words -%}
+    {%- assign mins = words | divided_by: 250 -%}
+    {%- if mins < 1 %}{% assign mins = 1 %}{% endif -%}
     <p class="post-meta" style="color: #666; margin-top: -0.5rem; margin-bottom: 1.5rem; font-size: 0.9rem;">
-      {{ page.date | date: date_format }}
+      {{ page.date | date: date_format }} · {{ mins }} min read
     </p>
 
     <div class="blog-post">

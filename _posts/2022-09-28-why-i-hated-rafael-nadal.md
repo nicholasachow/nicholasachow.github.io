@@ -2,6 +2,7 @@
 layout: post
 title: Why I hate Rafael Nadal
 subtitle: A farewell to Federer, the greatest tennis player who ever played the game
+tags: [tennis]
 ---
 
 *I'm still [in denial](https://en.wikipedia.org/wiki/Five_stages_of_grief) that [Roger Federer has retired from professional tennis](https://twitter.com/rogerfederer/status/1570401710685945856). If you also feel this way, please reach out and we can establish a support group or something.*

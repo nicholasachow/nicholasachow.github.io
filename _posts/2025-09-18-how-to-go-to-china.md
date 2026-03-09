@@ -2,6 +2,7 @@
 layout: post
 title: "How to go to China"
 subtitle: "Notes on competition, scaling laws, food, convenience, and more"
+tags: [technology, life]
 ---
 
 *These are some field notes from my trip to China back in 2024 — they have been sitting in my drafts for too long, so I just decided to hit the publish button.*

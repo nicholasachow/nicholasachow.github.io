@@ -2,6 +2,7 @@
 layout: post
 title: Roger Federer and the Ivy League
 subtitle: Reflections on Federer's commencement speech at Dartmouth
+tags: [tennis, life]
 ---
 
 By now, many of you know that Roger Federer, [the GOAT of tennis](https://en.wikipedia.org/wiki/Roger_Federer) (*and yes, I will die on this hill*), was Dartmouth's commencement speaker this year.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "I was wrong about travel"
+tags: [life]
 ---
 
 Travel isn't worth it.

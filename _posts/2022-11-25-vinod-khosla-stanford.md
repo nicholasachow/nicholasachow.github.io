@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vinod Khosla versus Stanford's business school"
+tags: [life, technology]
 ---
 
 *Besides giving me a chance to spend time with my family, the holidays provide a space for me to pore through my notes, reflect on nuggets I've collected, and connect disparate ideas. So I thought I'd share something I've been thinking about recently.*

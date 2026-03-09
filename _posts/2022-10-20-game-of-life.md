@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How to solve the game of life"
+tags: [life]
 ---
 
 *I'm revisiting a concept that I introduced originally as part of my musings: formulating life as a multi-armed bandit problem.*

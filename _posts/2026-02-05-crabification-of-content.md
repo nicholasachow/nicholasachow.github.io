@@ -2,6 +2,7 @@
 layout: post
 title: "The crabification of content"
 subtitle: "On mimesis, Moloch, and the algorithm trap"
+tags: [technology, writing]
 ---
 
 Everyone on YouTube is slowly morphing into a crab.

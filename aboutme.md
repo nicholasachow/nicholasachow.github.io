@@ -1,6 +1,7 @@
 ---
 layout: page
 title:
+share-description: "Director of Research at Altos Ventures. Stanford MBA, Princeton math/CS. AI investing and strategy."
 ---
 
 # About Me

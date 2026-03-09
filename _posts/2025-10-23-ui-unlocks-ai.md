@@ -2,6 +2,7 @@
 layout: post
 title: "UI unlocks AI"
 subtitle: "What do delightful AI products actually look like?"
+tags: [ai, technology]
 ---
 
 In 2022, thousands of developers had access to GPT-3.5 through the OpenAI playground. It was impressive but clunky: one prompt, one response, start over. Most shrugged and moved on.

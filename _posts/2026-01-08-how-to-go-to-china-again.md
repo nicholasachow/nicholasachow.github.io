@@ -2,6 +2,7 @@
 layout: post
 title: "How to go to China (again)"
 subtitle: "On quality, pragmatism, and the collision ahead"
+tags: [technology, life]
 ---
 
 Last year, I wrote about returning to China for the first time in a decade. That piece was about rediscovering a country — the scale, the convenience, the 卷 competitiveness that defines modern Chinese life. This trip was different.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "What matters most to you and why?"
+tags: [life]
 ---
 
 *At this point, the essay prompt for [the Stanford GSB](https://nicholasachow.substack.com/p/opinions-on-business-school-at-stanford) application has become relatively well-known: **What matters most to you and why?***

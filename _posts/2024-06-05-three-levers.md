@@ -4,6 +4,7 @@ title: "The three key levers of AI: product, operations, and you"
 subtitle: Can AI turbocharge your entire business, not just your product?
 comments: true
 mathjax: true
+tags: [ai, technology]
 ---
 
 I've written about [how to build AI products]({% post_url 2024-03-21-ai-lever %}) and the core part argument is that **AI is the lever, not a product**. In this way, I’ve implicitly argued that AI is a product lever — its unique capabilities allow for the existing product to be a better version of itself.

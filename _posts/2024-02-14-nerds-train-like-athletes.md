@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Nerds should train like professional athletes"
+tags: [life]
 ---
 
 When I was in undergrad, I had a love-hate relationship with the Princeton varsity athletes. Certain members of the crew team were known to "borrow" bikes for the long commute to the boat house, so I learned to invest in a secure bike lock. I was also bitter because the weight facilities at the varsity athlete gym were incredible, while the plebeian facilities only had one squat rack for the entire student population.

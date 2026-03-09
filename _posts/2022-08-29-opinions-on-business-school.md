@@ -2,6 +2,7 @@
 layout: post
 title: "Opinions on business school at Stanford"
 subtitle: "What I wish I knew before my first year at the GSB"
+tags: [life]
 ---
 
 *I have a lot of opinions, and here are some regarding the [GSB](https://www.gsb.stanford.edu/) after my first year.*

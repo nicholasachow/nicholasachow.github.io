@@ -2,6 +2,7 @@
 layout: post
 title: The unreasonable effectiveness of writing
 subtitle: Writing is the ultimate form of thinking
+tags: [writing]
 ---
 
 *The legendary investor Warren Buffett will often say that his greatest investment was the Dale Carnegie public-speaking course he took in college. Even if they decide to take Buffett's advice seriously, most people will spend their time learning to speak well (which is important), but completely forgo learning how to write well.*

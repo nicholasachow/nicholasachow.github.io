@@ -1,6 +1,7 @@
 ---
 layout: home_no_posts
 title:
+share-description: "Essays on AI, investing, tennis, and craft by Nicholas Chow."
 ---
 
 # Welcome

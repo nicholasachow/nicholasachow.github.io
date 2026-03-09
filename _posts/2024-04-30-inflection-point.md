@@ -2,6 +2,7 @@
 layout: post
 title: You are at the inflection point
 subtitle: The surprising key to a fulfilling career? Climb the most interesting mountain
+tags: [life]
 ---
 
 *I was invited to keynote for [HackPrinceton](https://www.hackprinceton.com/) earlier this month. I was asked to do this approximately two days beforehand, so I quickly cobbled something together on the flight over.*

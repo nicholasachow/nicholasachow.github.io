@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-light navbar-custom">
+<nav class="navbar-custom">
   <div class="nav-container" style="display: flex; justify-content: space-between; align-items: baseline; width: 100%; padding: 0 3rem;">
 
     {%- if site.title -%}
@@ -7,7 +7,8 @@
 
     <div class="nav-links" style="display: flex; gap: 0;">
       {%- for link in site.navbar-links -%}
-        <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+        {%- assign link_url = link[1] | relative_url -%}
+        <a class="nav-link{% if page.url contains link[1] %} active{% endif %}" href="{{ link_url }}">{{ link[0] }}</a>
       {%- endfor -%}
     </div>
 

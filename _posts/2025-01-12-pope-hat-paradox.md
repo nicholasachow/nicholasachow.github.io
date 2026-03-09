@@ -2,6 +2,7 @@
 layout: post
 title: "The pope hat paradox"
 subtitle: "How do you tell the difference between genius and lunacy?"
+tags: [ai, life]
 ---
 
 A young man sat by a dusty street, chalk in hand, lost in a world of numbers while other children sprinted past. Over the years, he wrote countless letters to European mathematicians, yet none were ever answered. His strange notation was too inscrutable to take seriously. Yet fate intervened: one eminent scholar recognized the brilliance hidden in those symbols and exclaimed, "We must bring this man to Cambridge immediately!"
