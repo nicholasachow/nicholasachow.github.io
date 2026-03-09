@@ -182,9 +182,18 @@ a:hover, a:focus {
 }
 
 .post-preview {
-  padding: 0.4rem 0 !important;
+  padding: 0.3rem 0 !important;
   margin: 0 !important;
   border-bottom: none !important;
+  display: flex !important;
+  align-items: baseline !important;
+  gap: 1rem !important;
+}
+
+.post-excerpt {
+  color: #666;
+  font-size: 0.85rem;
+  margin-top: 0.1rem;
 }
 
 .post-preview .post-title {

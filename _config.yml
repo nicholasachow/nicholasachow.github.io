@@ -19,7 +19,7 @@ navbar-links:
 title-on-all-pages: true
 remove-ads: true
 url-pretty: "nicholasachow.com"
-rss-description: This website is a virtual proof that I have a website
+rss-description: "Essays on AI, investing, tennis, and craft by Nicholas Chow."
 post_search: false
 edit_page_button: false
 excerpt_length: 50
