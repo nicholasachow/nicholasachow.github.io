@@ -14,3 +14,4 @@ beautiful-jekyll-theme-*.gem
 
 # ruby stuff
 vendor
+.ruby-version
