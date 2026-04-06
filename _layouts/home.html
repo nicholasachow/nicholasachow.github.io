@@ -5,7 +5,7 @@ layout: page
 {{ content }}
 
 {% assign posts = paginator.posts | default: site.posts %}
-{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+{% assign date_format = site.date_format | default: "%b %-d, %Y" %}
 
 <ul class="posts-list">
   {% for post in posts %}

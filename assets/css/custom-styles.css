@@ -211,6 +211,8 @@ a:hover, a:focus {
   padding: 0 !important;
   display: inline !important;
   float: none !important;
+  flex: 0 0 105px !important;
+  white-space: nowrap !important;
 }
 
 .post-preview .post-subtitle,

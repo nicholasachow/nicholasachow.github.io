@@ -25,7 +25,7 @@ edit_page_button: false
 excerpt_length: 50
 feed_show_excerpt: false
 feed_show_tags: false
-date_format: "%B %-d, %Y"
+date_format: "%b %-d, %Y"
 
 # --- Colours ---
 page-col: "#FFFFFF"
