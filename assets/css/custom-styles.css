@@ -361,8 +361,15 @@ blockquote {
   }
 
   .navbar-custom .nav-links {
-    flex-wrap: wrap !important;
+    flex-wrap: nowrap !important;
     gap: 0 !important;
+  }
+
+  .navbar-custom .nav-link,
+  .navbar-custom .navbar-nav .nav-link {
+    padding: 0 0 0 1rem !important;
+    font-size: 14px !important;
+    white-space: nowrap !important;
   }
 
   h1 { font-size: 1.5rem !important; }
