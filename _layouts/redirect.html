@@ -1,0 +1,16 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title | strip_html }}</title>
+  <link rel="canonical" href="{{ page.external_url }}">
+  <meta name="robots" content="noindex, follow">
+  <meta http-equiv="refresh" content="0; url={{ page.external_url }}">
+</head>
+<body>
+  <p>This essay lives at <a href="{{ page.external_url }}">{{ page.external_url }}</a>.</p>
+  <script>window.location.replace({{ page.external_url | jsonify }});</script>
+</body>
+</html>

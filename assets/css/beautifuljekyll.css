@@ -234,63 +234,6 @@ footer .copyright {
   font-weight: 800;
 }
 
-/* --- Tags --- */
-
-.blog-tags {
-  font-family: var(--header-font);
-  font-size: 0.9375rem;
-  margin: 1.875rem 0;
-}
-
-.blog-tags span {
-  color: var(--text-col);
-  opacity: 0.8;
-}
-
-.blog-tags a {
-  color: var(--text-col);
-  text-decoration: none;
-  padding: 0 0.3125rem;
-  opacity: 0.8;
-  border: 1px solid transparent;
-  border-radius: 0.1875rem;
-}
-
-.blog-tags a:hover {
-  opacity: 1;
-  color: var(--text-col);
-  border-color: var(--text-col);
-}
-
-.post-preview .blog-tags {
-  margin-top: 0.3125rem;
-  margin-bottom: 0;
-}
-
-/* Tags page */
-
-.tag-btn {
-  margin: 0.3125rem;
-}
-
-#full-tags-list {
-  font-family: var(--header-font);
-}
-
-#full-tags-list .tag-entry {
-  margin: 0 0 0.9375rem 1.5625rem;
-}
-
-#full-tags-list .tag-entry a {
-  font-size: 1.25rem;
-}
-
-#full-tags-list .tag-entry .entry-date {
-  color: var(--mid-col);
-  font-style: italic;
-  font-size: 1rem;
-}
-
 /* --- Post and page headers --- */
 
 .intro-header {

@@ -23,4 +23,4 @@ The project had real limitations -- the sample size from a single match was too 
 
 I concluded that the success of this kind of tennis analytics hinges on the ease of data collection. Manually transcribing every shot from video is painful and time-consuming, and at the time of writing, computers weren't sophisticated enough to automate it. I predicted that once technology made shot-level data collection automatic, this kind of analysis would become standard. A decade later, that prediction has largely come true with companies like Hawk-Eye and SwingVision doing exactly this.
 
-[Read the full paper (PDF)](https://www.dropbox.com/scl/fi/7trsshe5d07wa5eyts5hh/projectfederer.pdf?rlkey=grpvxfzqnhpdq0f1o8emkjt9s&e=3&st=rasvp8hg&dl=0)
+[Read the full paper (PDF)](https://www.dropbox.com/scl/fi/7trsshe5d07wa5eyts5hh/projectfederer.pdf?rlkey=grpvxfzqnhpdq0f1o8emkjt9s&e=2&st=rasvp8hg&dl=0)

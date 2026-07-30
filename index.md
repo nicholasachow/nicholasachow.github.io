@@ -10,8 +10,8 @@ share-description: "Essays on AI, investing, tennis, and craft by Nicholas Chow.
 
 ### Start here
 
-- [How to go to China](/2025-09-18-how-to-go-to-china/) — Notes on competition, scaling laws, food, convenience, and more
-- [Opinions on business school at Stanford](/2022-08-29-opinions-on-business-school/) — What I wish I knew before my first year at the GSB
-- [The purgatory of endless possibility](/2023-01-05-purgatory/) — Let's explore the unique existential dread of graduation together
-- [Nerds should train like professional athletes](/2024-02-14-nerds-train-like-athletes/) — How to dominate knowledge work
+- [How to go to China](https://nicholasachow.substack.com/p/how-to-go-to-china) — Notes on competition, scaling laws, food, convenience, and more
+- [Opinions on business school at Stanford](https://nicholasachow.substack.com/p/opinions-on-business-school-at-stanford) — What I wish I knew before my first year at the GSB
+- [The purgatory of endless possibility](https://nicholasachow.substack.com/p/the-purgatory-of-endless-possibility) — Let's explore the unique existential dread of graduation together
+- [Nerds should train like professional athletes](https://nicholasachow.substack.com/p/nerds-should-train-like-professional) — How to dominate knowledge work
 - [Project Federer](/projects/project-federer) — A data-driven tennis analytics system that encoded every shot across five dimensions

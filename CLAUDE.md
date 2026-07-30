@@ -19,6 +19,6 @@ Jekyll site using a heavily stripped-down Beautiful Jekyll theme.
 - Static navbar (not fixed), left-aligned content column
 
 ## Content
-- Post tags taxonomy: `ai`, `investing`, `tennis`, `life`, `writing`, `technology`
-- All posts use `layout: post` with optional `subtitle` and `tags` in frontmatter
-- Blog listing (`_layouts/home.html`) shows date + title + subtitle excerpt
+- Posts in `_posts/` are metadata-only stubs: `title`, optional `subtitle`, and `external_url` — no body content
+- They render via `_layouts/redirect.html`, which keeps the old permalink alive and redirects to the canonical Substack post
+- Blog listing (`_layouts/home.html`) links each entry straight out to its `external_url`

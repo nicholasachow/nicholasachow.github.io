@@ -13,7 +13,6 @@ navbar-links:
   About Me: "aboutme"
   Essays: "blog"
   Projects: "projects"
-  Writing: "writing"
 
 # --- General ---
 title-on-all-pages: true
@@ -24,7 +23,6 @@ post_search: false
 edit_page_button: false
 excerpt_length: 50
 feed_show_excerpt: false
-feed_show_tags: false
 date_format: "%b %-d, %Y"
 
 # --- Colours ---
@@ -61,7 +59,8 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "redirect"
+      sitemap: false
   -
     scope:
       path: ""
@@ -80,5 +79,4 @@ exclude:
   - docs/
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap

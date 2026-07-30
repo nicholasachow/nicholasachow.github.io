@@ -4,15 +4,14 @@ layout: page
 
 {{ content }}
 
-{% assign posts = paginator.posts | default: site.posts %}
 {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
 
 <ul class="posts-list">
-  {% for post in posts %}
+  {% for post in site.posts %}
   <li class="post-preview">
     <span class="post-meta">{{ post.date | date: date_format }}</span>
     <div>
-      <a href="{{ post.url | absolute_url }}">{{ post.title | strip_html }}</a>
+      <a href="{{ post.external_url }}">{{ post.title | strip_html }}</a>
       {% if post.subtitle %}<div class="post-excerpt">{{ post.subtitle }}</div>{% endif %}
     </div>
   </li>

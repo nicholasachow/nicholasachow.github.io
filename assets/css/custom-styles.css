@@ -169,12 +169,6 @@ a:hover, a:focus {
   margin-top: 0.2rem !important;
 }
 
-/* --- Post Content --- */
-.blog-post {
-  font-size: 18px !important;
-  line-height: 1.7 !important;
-}
-
 /* --- Post Listing (home.html) --- */
 .posts-list {
   padding: 0 !important;
@@ -217,8 +211,7 @@ a:hover, a:focus {
 
 .post-preview .post-subtitle,
 .post-preview .post-entry,
-.post-preview .post-image,
-.post-preview .blog-tags {
+.post-preview .post-image {
   display: none !important;
 }
 
@@ -278,7 +271,6 @@ img {
 }
 
 .post-preview,
-.blog-post,
 article {
   box-shadow: none !important;
   border: none !important;
@@ -286,35 +278,6 @@ article {
 
 .intro-header .big-img .img-desc {
   display: none !important;
-}
-
-/* --- Post page: tags --- */
-.blog-tags {
-  margin-top: 2rem !important;
-  font-size: 0.9rem !important;
-}
-
-.blog-tags a {
-  color: #0000FF !important;
-}
-
-/* --- Post navigation (prev/next) --- */
-.pagination.blog-pager {
-  margin-top: 2rem !important;
-  border-top: 1px solid #eee !important;
-  padding-top: 1rem !important;
-  gap: 1.5rem;
-}
-
-.pagination.blog-pager li {
-  max-width: 45%;
-}
-
-.pagination .page-link {
-  color: #0000FF !important;
-  background: none !important;
-  border: none !important;
-  font-size: 0.9rem !important;
 }
 
 /* --- Figcaption --- */
