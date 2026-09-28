@@ -5,7 +5,7 @@ title:
 
 # Project Federer
 
-In the summer of 2015, I played a series of tennis matches against my friend Sanjay Kaliyur at Princeton. I lost every single one. The closest I came was a match on September 9th, which Sanjay won 5-7, 6-0, 6-0 -- I took my first-ever set off him, then completely fell apart. Afterward, I had a flood of questions about what went wrong and no way to answer them. Luckily, we had recorded the entire match. Project Federer was born from the simple frustration of losing and wanting to understand why.
+In the summer of 2015, I played a series of tennis matches against my friend Sanjay. I lost every single one. The closest I came was a match on September 9th. I took my first-even set off him, and then completely fell apart; the match finished 5-7, 6-0, 6-0. Afterward, I had a flood of questions about what went wrong and no way to answer them. Luckily, we had recorded the entire match. Project Federer was born from the simple frustration of losing and wanting to understand why.
 
 The project's goal was to evaluate three different methods of measuring tennis performance and determine which is most useful for informing strategy and training: the eye test (qualitative observation), traditional statistics (aces, first serve percentage, break points, etc.), and a new shot-level analytical framework I designed from scratch.
 
